@@ -1,0 +1,147 @@
+.banner{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.cat__menu{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+ 
+  &--item{
+    width: 250px;
+    min-width: 150px;
+    flex: 1 1 200px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    &.active{
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  &--item:hover{
+    background-color: #000;
+    color: #fff;
+  }
+}
+hr{
+  margin-top: 10px;
+}
+.list__product{
+  display: flex;
+  justify-content: space-around;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+.product__item{
+  width: 160px;
+  margin: 10px;
+  cursor: pointer;
+  .product__image{
+    &--size{
+      width: 160px;
+      height: 160px;
+      
+    }
+    &--img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &:hover{
+  width: 170px;
+   .product__image{
+    &--size{
+      width: 160px;
+      height: 160px;
+      
+    }
+    &--img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+}
+
+.product{
+  &__name{
+    font-size: 14px;
+    height: 30px;
+    align-items: center;
+    margin-top: 8px;
+  }
+  &__sold{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--count{
+      font-size: 12px;
+    }
+  }
+  &__discount{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    &--price{
+      width: 56px;
+      height: 24px;
+       background-color: #CC0C39;
+       color: #fff;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    &--title{
+      color: #CC0C39;
+      font-weight:700;
+      margin-left: 5px;
+      padding-top: 3px;
+    }
+
+  }
+  &__price{
+    font-size: 14px;
+    padding-top: 3px;
+    &--new{
+    font-size: 21px;
+    padding-top: 3px;
+  }
+  &--old{
+    font-size: 12px;
+    text-decoration: line-through;
+  }
+  }
+}
+.current__page{
+  display: flex;
+  justify-content: right;
+  margin-top: 20px !important;
+}
+.product__button-add{
+  width: 90px;
+  background-color: #F9D316;
+  color: #000;
+  border-radius: 15px;
+  border: 0;
+  padding: 7px 0 7px 0;
+  margin-top: 10px;
+  cursor: pointer;
+  &:hover{
+    background-color: #ffce12;
+  }
+}
+.content__product{
+      margin-top: 110px;
+    width: 90%;
+    margin-left: 5%;
+}

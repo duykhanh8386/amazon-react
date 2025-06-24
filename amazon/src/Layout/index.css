@@ -1,0 +1,12 @@
+*{
+    margin-left: 1px;
+    margin-right: 1px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-right: 2px;
+    z-index: 1000;
+}
