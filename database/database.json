@@ -1,0 +1,354 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Blink Outdoor 4 XR + Mini 2",
+            "image": "https://m.media-amazon.com/images/I/416u4ov7CxL._AC_SL1000_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 14,
+            "price": 262.95,
+            "category": "Cameras",
+            "sold": 1307
+        },
+        {
+            "id": 2,
+            "name": "Echo Dot (5th Gen)",
+            "image": "https://m.media-amazon.com/images/I/71d5O0XwooL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 31,
+            "price": 336.79,
+            "category": "Smart Home",
+            "sold": 4129
+        },
+        {
+            "id": 3,
+            "name": "Fire TV Stick 4K",
+            "image": "https://m.media-amazon.com/images/I/51UcKvvAdQL._AC_SL1000_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 24,
+            "price": 268.87,
+            "category": "Security",
+            "sold": 3741
+        },
+        {
+            "id": 4,
+            "name": "Ring Video Doorbell Pro",
+            "image": "https://m.media-amazon.com/images/I/41FtCUr5PuL._SL1000_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 11,
+            "price": 312.15,
+            "category": "Electronics",
+            "sold": 878
+        },
+        {
+            "id": 5,
+            "name": "Kindle Paperwhite 11th Gen",
+            "image": "https://m.media-amazon.com/images/I/61MdbBO+SEL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 45,
+            "price": 176.8,
+            "category": "Gadgets",
+            "sold": 2733
+        },
+        {
+            "id": 6,
+            "name": "Eero 6 Mesh Wi-Fi System",
+            "image": "https://m.media-amazon.com/images/I/61D7vtclcsL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 26,
+            "price": 246.28,
+            "category": "Electronics",
+            "sold": 598
+        },
+        {
+            "id": 7,
+            "name": "Fire HD 10 Tablet",
+            "image": "https://m.media-amazon.com/images/I/61rnvX6gfrL._AC_SL1000_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 8,
+            "price": 258.15,
+            "category": "Smart Home",
+            "sold": 4249
+        },
+        {
+            "id": 8,
+            "name": "Amazon Smart Thermostat",
+            "image": "https://m.media-amazon.com/images/I/51yVvRtBLBL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 36,
+            "price": 340.61,
+            "category": "Electronics",
+            "sold": 1099
+        },
+        {
+            "id": 9,
+            "name": "Blink Mini Indoor Camera",
+            "image": "https://m.media-amazon.com/images/I/41UlY9ofudL._SL1000_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 58,
+            "price": 72.94,
+            "category": "Smart Home",
+            "sold": 624
+        },
+        {
+            "id": 10,
+            "name": "Echo Show 10",
+            "image": "https://m.media-amazon.com/images/I/61xjVh4Z9TL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 37,
+            "price": 226.89,
+            "category": "Electronics",
+            "sold": 1826
+        },
+        {
+            "id": 11,
+            "name": "Echo Auto 2nd Gen",
+            "image": "https://m.media-amazon.com/images/I/51oKxfNvMFL._AC_SL1000_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 19,
+            "price": 200.17,
+            "category": "Smart Home",
+            "sold": 564
+        },
+        {
+            "id": 12,
+            "name": "Fire TV Cube",
+            "image": "https://m.media-amazon.com/images/I/616Nbdh+2EL._AC_SL1000_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 29,
+            "price": 273.02,
+            "category": "Security",
+            "sold": 271
+        },
+        {
+            "id": 13,
+            "name": "Ring Floodlight Cam",
+            "image": "https://m.media-amazon.com/images/I/31Wnq25I-ML._SL1000_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 54,
+            "price": 125.19,
+            "category": "Cameras",
+            "sold": 2846
+        },
+        {
+            "id": 14,
+            "name": "Smart Plug (Amazon Basics)",
+            "image": "https://m.media-amazon.com/images/I/515sebA4zGL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 31,
+            "price": 238.85,
+            "category": "Gadgets",
+            "sold": 4208
+        },
+        {
+            "id": 15,
+            "name": "Kindle Scribe",
+            "image": "https://m.media-amazon.com/images/I/71qhHmI96-L._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 12,
+            "price": 347.13,
+            "category": "Security",
+            "sold": 3111
+        },
+        {
+            "id": 16,
+            "name": "Echo Buds 2nd Gen",
+            "image": "https://m.media-amazon.com/images/I/61-AJFBbjNL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 44,
+            "price": 78.68,
+            "category": "Gadgets",
+            "sold": 2562
+        },
+        {
+            "id": 17,
+            "name": "Amazon Luna Controller",
+            "image": "https://m.media-amazon.com/images/I/61CphVgIhaL._SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 28,
+            "price": 171.49,
+            "category": "Security",
+            "sold": 2147
+        },
+        {
+            "id": 18,
+            "name": "Eero Pro 6E",
+            "image": "https://m.media-amazon.com/images/I/41QDmngFoTL._SL1500_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 25,
+            "price": 294.53,
+            "category": "Cameras",
+            "sold": 4097
+        },
+        {
+            "id": 19,
+            "name": "Echo Show 15",
+            "image": "https://m.media-amazon.com/images/I/715lhUXskOL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 65,
+            "price": 83.18,
+            "category": "Smart Home",
+            "sold": 2253
+        },
+        {
+            "id": 20,
+            "name": "Blink Outdoor 2-Cam Kit",
+            "image": "https://m.media-amazon.com/images/I/61ZZV1T0enL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 37,
+            "price": 202.48,
+            "category": "Gadgets",
+            "sold": 2083
+        },
+        {
+            "id": 21,
+            "name": "Fire 7 Kids Edition",
+            "image": "https://m.media-amazon.com/images/I/71eGWXbgGwL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 34,
+            "price": 328.6,
+            "category": "Smart Home",
+            "sold": 4658
+        },
+        {
+            "id": 22,
+            "name": "Echo Wall Clock",
+            "image": "https://m.media-amazon.com/images/I/61c7iFABSpL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 8,
+            "price": 289.4,
+            "category": "Cameras",
+            "sold": 4671
+        },
+        {
+            "id": 23,
+            "name": "Amazon Basics Monitor Stand",
+            "image": "https://m.media-amazon.com/images/I/51hVXrYsGkL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 21,
+            "price": 351.37,
+            "category": "Electronics",
+            "sold": 961
+        },
+        {
+            "id": 24,
+            "name": "Ring Alarm 8-piece Kit",
+            "image": "https://m.media-amazon.com/images/I/51herVFlNNL._SL1500_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 11,
+            "price": 281.87,
+            "category": "Gadgets",
+            "sold": 3006
+        },
+        {
+            "id": 25,
+            "name": "Smart Air Quality Monitor",
+            "image": "https://m.media-amazon.com/images/I/61CREaDXy+L._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 24,
+            "price": 263.0,
+            "category": "Cameras",
+            "sold": 1243
+        },
+        {
+            "id": 26,
+            "name": "Alexa Voice Remote Pro",
+            "image": "https://m.media-amazon.com/images/I/61SO5dak+VL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 36,
+            "price": 166.42,
+            "category": "Electronics",
+            "sold": 4009
+        },
+        {
+            "id": 27,
+            "name": "Echo Frames",
+            "image": "https://m.media-amazon.com/images/I/414726yaqcL._AC_SL1000_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 55,
+            "price": 142.42,
+            "category": "Electronics",
+            "sold": 3215
+        },
+        {
+            "id": 28,
+            "name": "Fire Max 11 Tablet",
+            "image": "https://m.media-amazon.com/images/I/71wk6xXIzPL._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Echo Dot (5th Gen) fits perfectly into your smart home environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Echo Dot (5th Gen) ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Echo Dot (5th Gen) is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your smart home experience with efficiency, control, and comfort.",
+            "discount": 26,
+            "price": 369.2,
+            "category": "Gadgets",
+            "sold": 2195
+        },
+        {
+            "id": 29,
+            "name": "Amazon Dash Cart",
+            "image": "https://m.media-amazon.com/images/I/71fw+hAPl7L._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Fire TV Stick 4K fits perfectly into your security environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Fire TV Stick 4K ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Fire TV Stick 4K is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your security experience with efficiency, control, and comfort.",
+            "discount": 21,
+            "price": 374.16,
+            "category": "Gadgets",
+            "sold": 3251
+        },
+        {
+            "id": 30,
+            "name": "Smart Soap Dispenser",
+            "image": "https://m.media-amazon.com/images/I/61RMC1SQv5L._AC_SL1500_.jpg",
+            "description": "• Smart Integration: The Blink Outdoor 4 XR + Mini 2 fits perfectly into your cameras environment, enabling seamless control and interaction through modern smart systems.\n• Dual Connectivity: With flexible connectivity options, including Wi-Fi and Bluetooth, the Blink Outdoor 4 XR + Mini 2 ensures uninterrupted access via your mobile device or voice assistants.\n• Intelligent Features: Enjoy smart features like scheduling, automation, voice support (Alexa compatible), and optimized performance tailored for daily convenience.\n• Simple Setup: The Blink Outdoor 4 XR + Mini 2 is user-friendly and comes with quick start guides, making it easy to install for any type of user without requiring technical expertise.\n• Versatile Usage: Whether it's for your home, office, or special events, this device elevates your cameras experience with efficiency, control, and comfort.",
+            "discount": 43,
+            "price": 258.0,
+            "category": "Gadgets",
+            "sold": 620
+        }
+    ],
+    "categories":[
+  {
+    "id": 1,
+    "name": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Gadgets"
+  },
+  {
+    "id": 3,
+    "name": "Security"
+  },
+  {
+    "id": 4,
+    "name": "Smart Home"
+  },
+  {
+    "id": 5,
+    "name": "Cameras"
+  }
+],
+"dataFooter": [
+    { "title": "Amazon Music", "desc": "Stream millions of songs" },
+    { "title": "Amazon Ads", "desc": "Reach customers wherever they spend their time" },
+    { "title": "6pm", "desc": "Score deals on fashion brands" },
+    { "title": "AbeBooks", "desc": "Books, art & collectibles" },
+    { "title": "ACX", "desc": "Audiobook Publishing Made Easy" },
+    { "title": "Sell on Amazon", "desc": "Start a Selling Account" },
+    { "title": "Veeqo", "desc": "Shipping Software Inventory Management" },
+    { "title": "Amazon Business", "desc": "Everything For Your Business" },
+    { "title": "AmazonGlobal", "desc": "Ship Orders Internationally" },
+    { "title": "Amazon Web Services", "desc": "Scalable Cloud Computing Services" },
+    { "title": "Audible", "desc": "Listen to Books & Original Audio Performances" },
+    { "title": "Box Office Mojo", "desc": "Find Movie Box Office Data" },
+    { "title": "Goodreads", "desc": "Book reviews & recommendations" },
+    { "title": "IMDb", "desc": "Movies, TV & Celebrities" },
+    { "title": "IMDbPro", "desc": "Get Info Entertainment Professionals Need" },
+    { "title": "Kindle Direct Publishing", "desc": "Indie Digital & Print Publishing Made Easy" },
+    { "title": "Prime Video Direct", "desc": "Video Distribution Made Easy" },
+    { "title": "Shopbop", "desc": "Designer Fashion Brands" },
+    { "title": "Woot!", "desc": "Deals and Shenanigans" },
+    { "title": "Zappos", "desc": "Shoes & Clothing" },
+    { "title": "Ring", "desc": "Smart Home Security Systems" },
+    { "title": "eero WiFi", "desc": "Stream 4K Video in Every Room" },
+    { "title": "Blink", "desc": "Smart Security for Every Home" },
+    { "title": "Neighbors App", "desc": "Real-Time Crime & Safety Alerts" },
+    { "title": "Amazon Subscription Boxes", "desc": "Top subscription boxes – right to your door" },
+    { "title": "PillPack", "desc": "Pharmacy Simplified" }
+  ]
+}
