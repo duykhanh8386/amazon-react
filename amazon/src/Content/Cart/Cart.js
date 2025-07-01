@@ -6,13 +6,13 @@ import { Col, Row } from "antd";
 import ListProductItem from "../ListProduct/ListProductItem";
 import { useEffect, useState } from "react";
 import { getListProduct } from "../../services/productService";
+import QRCodePayment from "../../component/QRcodePayment/QRcodePayment";
 
 function Cart() {
   const cart = useSelector(state => state.cartReducer);
   const dispatch = useDispatch();
-  const locations = useLocation();
   const [pagedData, setProducts] = useState([]);
-  const { totalItem} = locations.state;
+  const totalItem = cart.reduce((sum, item) => sum + item.quantity, 0);
   const total = cart.reduce((sum, item) => {
     const priceNew = item.info.price * (100 - item.info.discount) / 100;
     return sum + priceNew * item.quantity;
@@ -70,7 +70,7 @@ function Cart() {
         <input type="checkbox" id="gift" />
         <label htmlFor="gift">This order contains a gift</label>
       </div>
-      <button className="pay">Proceed to checkout</button>
+      <QRCodePayment />
     </div>
 
     <div className="suggestion__box">

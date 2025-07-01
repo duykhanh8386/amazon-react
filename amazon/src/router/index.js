@@ -2,6 +2,8 @@ import Cart from "../Content/Cart/Cart";
 import ListProduct from "../Content/ListProduct/ListProduct";
 import ProductItem from "../component/ProductInfor/ProductItem";
 import Layout from "../Layout";
+import Signin from "../component/Login/Signin";
+import CreateAccount from "../component/Login/CreateAccount";
 
 export const router =[
     {
@@ -22,5 +24,14 @@ export const router =[
                 element:<Cart/>
             }
         ]   
-    }
+    },
+    {
+              path:"signin",
+              element:<Signin/>,
+              
+            },
+            {
+                path:"signin/create-account",
+                element:<CreateAccount/>
+              }
 ]

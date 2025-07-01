@@ -6,17 +6,25 @@ import { getCategory } from "../../services/categoryService";
 import "./Header.scss"
 import MenuHeader from "./MenuHeader";
 import CartMini from "../../component/CartItem/CartMini";
-
+import { Link, useNavigate } from "react-router-dom";
+import { useUser } from "../../component/contexts/UserContext";
+import { useDispatch } from "react-redux";
+import { clearCart } from "../../component/action/cart";
 const { Option } = Select
 function Header({ onSearch }) {
   const [cat, setCat] = useState([]);
+  const { user, setUser } = useUser();
   //Search Input
   const [searchValue, setSearchValue] = useState("");
-
+  const [showModal, setShowModal] = useState(true);
+  const dispatch = useDispatch(); // ✅ Khai báo
+  const navigate = useNavigate();
   const handleSearch = (value) => {
     onSearch(value.trim().toLowerCase());
   };
-
+  const handleClick = () => {
+    setShowModal(!showModal);// nếu đã đăng nhập thì không show modal nữa
+  }
   useEffect(() => {
     const fetchCat = async () => {
       const response = await getCategory();
@@ -24,7 +32,11 @@ function Header({ onSearch }) {
     }
     fetchCat();
   }, [])
-
+  const handleLogout = () => {
+  dispatch(clearCart());
+  setUser(null);
+  navigate("/signin");
+};
   return (
     <>
 
@@ -67,18 +79,35 @@ function Header({ onSearch }) {
           <img src="https://flagcdn.com/us.svg" alt="US Flag" className="header__flag" />
           <span>EN</span>
         </div>
-        <div className="header__account">
-          <span className="header__line1">Hello, sign in</span>
-          <span className="header__line2">Account & Lists ▾</span>
+        <div className="header__account" onClick={handleClick}>
+          <span className="header__line1">
+            Hello, {user ? user.name : "sign in"}
+          </span>
+          <span className="header__line2">
+            {user ? "Welcome back!" : "Account & Lists ▾"}
+          </span>
+
+          {showModal && (
+            !user ? (
+              <div className="header__signin">
+                <Button color="yellow" href="/signin">Sign in</Button>
+                <div>New customer? <Link to="/signin/create-account">Start here.</Link></div>
+              </div>
+            ) : (
+              <div className="header__signin">
+                <Button color="yellow" onClick={handleLogout}>Log out</Button>
+              </div>
+            )
+          )}
         </div>
         <div className="header__orders">
           <span className="header__line1">Returns</span>
           <span className="header__line2">& Orders</span>
         </div>
 
-        
-          <CartMini/>
-       
+
+        <CartMini />
+
       </div>
       <MenuHeader />
     </>

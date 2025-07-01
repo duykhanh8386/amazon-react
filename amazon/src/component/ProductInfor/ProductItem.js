@@ -1,21 +1,29 @@
 import { Col, Row, Image } from "antd";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "./ProductItem.scss";
 import { StarFilled } from "@ant-design/icons"
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, updateQuantity } from "../action/cart";
+import { useUser } from "../contexts/UserContext";
 function ProductItem() {
   const locations = useLocation();
   const { item } = locations.state;
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const { user } = useUser();
   const cart = useSelector(state=>state.cartReducer);
   const handleAddToCart=(item)=>{
-    if(cart.some(itemCart=>itemCart.id===item.id)){
+    if(!user){
+      return navigate("/signin");
+    }else{
+       if(cart.some(itemCart=>itemCart.id===item.id)){
       dispatch(updateQuantity(item.id));
     }
     else{
       dispatch(addToCart(item.id,item));
     }
+    }
+   
   }
   return (
     <>
@@ -79,33 +87,33 @@ function ProductItem() {
           </div>
         </Col>
         <Col xxl={6} xl={6} lg={6} md={24} sm={24} xs={24}>
-        <div className="productDetail__buybox">
-      <h2 className="text" style={{ fontSize: '24px', fontWeight: 600 }}>${(item.price * (100 - Number(item.discount)) / 100).toFixed(2)}</h2>
-      <p className="text" style={{ color: "#007185", fontSize: "14px",color:"#5abbfa" }}>FREE International Returns</p>
-      <p className="text" style={{ fontSize: "14px" }}>$38.04 Shipping & Import Charges to Vietnam</p>
-      <p  className="text" style={{ fontWeight: 500 }}>Delivery <strong style={{ color: "black" }}>Friday, July 25</strong></p>
-      <p className="text" style={{ color: "#007185", fontSize: "14px" }}>Deliver to Vietnam</p>
+          <div className="productDetail__buybox">
+            <h2 className="text" style={{ fontSize: '24px', fontWeight: 600 }}>${(item.price * (100 - Number(item.discount)) / 100).toFixed(2)}</h2>
+            <p className="text" style={{ color: "#007185", fontSize: "14px", color: "#5abbfa" }}>FREE International Returns</p>
+            <p className="text" style={{ fontSize: "14px" }}>$38.04 Shipping & Import Charges to Vietnam</p>
+            <p className="text" style={{ fontWeight: 500 }}>Delivery <strong style={{ color: "black" }}>Friday, July 25</strong></p>
+            <p className="text" style={{ color: "#007185", fontSize: "14px" }}>Deliver to Vietnam</p>
 
-      <p className="text" style={{ color: "#007600", fontWeight: 600 }}>In Stock</p>
+            <p className="text" style={{ color: "#007600", fontWeight: 600 }}>In Stock</p>
 
-      <select className="product__select-qty">
-        
-        <option value="1">Quantity: 1</option>
-      </select>
+            <select className="product__select-qty">
 
-      <button className="product__button-cart" onClick={() => handleAddToCart(item)}>Add to Cart</button>
-      <button className="product__button-buy">Buy Now</button>
+              <option value="1">Quantity: 1</option>
+            </select>
 
-      <p className="product__buy-info"><strong>Ships from</strong> Amazon.com</p>
-      <p className="product__buy-info"><strong>Sold by</strong> Amazon.com</p>
-      <p className="product__buy-info"><strong>Payment</strong> <span style={{ color: "#007185" }}>Secure transaction</span></p>
+            <button className="product__button-cart" onClick={() => handleAddToCart(item)}>Add to Cart</button>
+            <button className="product__button-buy">Buy Now</button>
 
-      <label className="product__gift-check">
-        <input type="checkbox" /> Add a gift receipt for easy returns
-      </label>
+            <p className="product__buy-info"><strong>Ships from</strong> Amazon.com</p>
+            <p className="product__buy-info"><strong>Sold by</strong> Amazon.com</p>
+            <p className="product__buy-info"><strong>Payment</strong> <span style={{ color: "#007185" }}>Secure transaction</span></p>
 
-    </div>
-          
+            <label className="product__gift-check">
+              <input type="checkbox" /> Add a gift receipt for easy returns
+            </label>
+
+          </div>
+
         </Col>
       </Row>
 

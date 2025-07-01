@@ -2,6 +2,10 @@ const cartReducer =(state=[],action)=>{
   let newState = [...state];
 
   switch(action.type){
+    case "LOAD_CART":
+      return action.items || [];
+    case "CLEAR_CART":
+      return [];
     case "ADD_TO_CART":
       return [
         ...state,

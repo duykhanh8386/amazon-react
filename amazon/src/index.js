@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import allReducers from './reducers';
+import { UserProvider } from './component/contexts/UserContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 //Dùng local storage để lưu trữ giỏ hàng tránh bị render mất,
 const persistedState = localStorage.getItem("cart")
@@ -25,7 +26,9 @@ store.subscribe(() => {
 root.render(
  <Provider store={store}>
   <BrowserRouter>
-    <App />
+    <UserProvider>
+      <App />
+    </UserProvider>
   </BrowserRouter>
   </Provider>
 );

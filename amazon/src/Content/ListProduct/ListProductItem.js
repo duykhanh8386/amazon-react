@@ -1,18 +1,26 @@
 import { StarFilled } from "@ant-design/icons";
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { addToCart, updateQuantity } from "../../component/action/cart";
+import { useUser } from "../../component/contexts/UserContext";
 function ListProductItem(props){
   const {pagedData} = props;
   const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const { user } = useUser();
   const cart = useSelector(state=>state.cartReducer);
   const handleAddToCart=(item)=>{
-    if(cart.some(itemCart=>itemCart.id===item.id)){
+    if(!user){
+      return navigate("/signin");
+    }else{
+       if(cart.some(itemCart=>itemCart.id===item.id)){
       dispatch(updateQuantity(item.id));
     }
     else{
       dispatch(addToCart(item.id,item));
     }
+    }
+   
   }
   return(
     <>
